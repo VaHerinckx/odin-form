@@ -127,6 +127,11 @@ input:focus {
   border-radius: 5px;
 }
 
+input:invalid {
+  outline: none !important;
+  border-color: red;
+}
+
 button {
   color: white;
   background-color: rgb(115,192,197);
@@ -147,4 +152,9 @@ button:active {
 
 a:visited {
   color: var(--button-color);
+}
+
+.requirements {
+  margin-top:0;
+  font-size: 12px;
 }
