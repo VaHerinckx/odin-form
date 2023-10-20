@@ -158,3 +158,12 @@ a:visited {
   margin-top:0;
   font-size: 12px;
 }
+
+input:placeholder-shown, input, input:valid {
+  border-color: black;
+  background-color: white;
+}
+
+input:required:valid {
+  background-color: white;
+}
