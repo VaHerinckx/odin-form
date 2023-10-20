@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odin-form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-container">
+    <div class="image-left">
+      <p class="image-banner">
+        <img class="logo" src="lifelog_logo.png" alt="Logo of the lifelog Project">
+        The Lifelog project
+      </p>
+    </div>
+    <div class="content-right">
+      <div class="content-quote">
+        <p>This is just <em>some mock text</em>. It's only there to take some space on the page.</p>
+        <p>Here again, more mock text so that we have two elements separated</p>
+      </div>
+      <form action="" type="GET">
+        <div class="content-form">
+          <p>Let's do this!</p>
+          <div class="form-row">
+            <div class="form-element">
+              <label for="first-name">First Name</label>
+              <input id="first-name" name="first-name" type="text">
+            </div>
+            <div class="form-element">
+              <label for="last-name">Last Name</label>
+              <input id="last-name" name="last-name" type="text">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-element">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email">
+            </div>
+            <div class="form-element">
+              <label for="phone-number">Phone Number</label>
+              <input id="phone-number" name= "phone" type="text">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-element">
+              <label for="password">Password</label>
+              <input id="password" type="password">
+            </div>
+            <div class="form-element">
+              <label for="password-cfrm">Confirm password</label>
+              <input id="password-cfrm" type="password">
+            </div>
+          </div>
+        </div>
+        <div class="content-submit">
+          <button>Create Account</button>
+          <p>Already have an account? <span><a href="https://www.dhnet.be/">Log in</a></span></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

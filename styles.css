@@ -1,0 +1,150 @@
+
+@font-face {
+  font-family: "wotfard";
+  src: url(wotfard-regular-webfont.ttf);
+}
+
+:root {
+  font-family: "wotfard";
+  margin: 0px;
+  padding: 0px;
+  --button-color: rgb(115,192,197);
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+
+}
+
+.page-container {
+  display: flex;
+  height: 100vh;
+}
+
+.image-left {
+  background-color: green;
+  width: 40%;
+  background-image: url("data-center.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  height: 100vh;
+}
+
+.logo {
+  height: 100px;
+}
+.image-banner {
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 20vh;
+  font-size: 30px;
+  position: absolute;
+  top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.content-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content-quote {
+  background-color: #EBEBEB;
+  height: calc(100%/3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding-left: 15px;
+}
+
+.content-quote p:first-child {
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.content-quote p:nth-child(2) {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.form {
+  height: calc(200%/3);
+}
+
+form {
+  height: 100%;
+}
+
+.content-form {
+  margin: 0;
+  background-color: white;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.content-submit {
+  background-color: #EBEBEB;
+  height: 48%;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.content-form p:first-child {
+  font-size: 20px;
+}
+
+input {
+  width: 200px;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: rgba(0, 140, 255, 0.763);
+  box-shadow: 0px 2px 2px black;
+  border-radius: 5px;
+}
+
+button {
+  color: white;
+  background-color: rgb(115,192,197);
+  border: 1px solid var(--button-color);
+  border-radius: 5px;
+  padding: 10px;
+  height: 30px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px 20px 0px;
+}
+
+button:active {
+  border-color: black;
+}
+
+a:visited {
+  color: var(--button-color);
+}
